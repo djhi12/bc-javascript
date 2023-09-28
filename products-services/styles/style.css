@@ -62,22 +62,24 @@
  }
 
  /* Style the features section */
- .features {
-     background-color: #f4f4f4;
-     padding: 3rem 0;
-     text-align: center;
- }
+.features {
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+    text-align: center;
+}
 
- .feature {
-     max-width: 300px;
-     margin: 0 auto;
-     margin-bottom: 2rem;
- }
+.feature {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: inline-block; /* Added this line to make it inline-block */
+}
 
- .feature h2 {
-     font-size: 1.5rem;
-     margin-bottom: 1rem;
- }
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 
  /* Style the pricing section */
  .pricing {
